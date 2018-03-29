@@ -13,7 +13,7 @@ public class InsultGenerator {
 		if (vowels.indexOf(firstAdjective.charAt(0)) == -1) {
 			article = "a";
 		}
-		return String.format("Thou art %s %s %s %s!", article, firstAdjective, secondAdjective, noun);
+		return String.format("---Thou art %s %s %s %s!---", article, firstAdjective, secondAdjective, noun);
 	}
 
 }
